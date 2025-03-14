@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MoneyApp</string>
+    <string name="title_home">BayaniPay</string>
+    <string name="label_balance">Available Balance</string>
+    <string name="label_balance_value">PHP 5,000</string>
+
+</resources>
