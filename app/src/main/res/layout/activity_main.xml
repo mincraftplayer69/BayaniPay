@@ -32,33 +32,36 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/wallet_button"
         android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="28dp"
+        android:backgroundTint="@color/black"
         android:text="@string/label_wallet"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/icon_person" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/savings_button"
         android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="28dp"
+        android:backgroundTint="@color/black"
         android:text="@string/label_savings"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/wallet_button"
         app:layout_constraintTop_toBottomOf="@+id/icon_person" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/credit_button"
         android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="28dp"
+        android:backgroundTint="@color/black"
         android:text="@string/label_credit"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/savings_button"
         app:layout_constraintTop_toBottomOf="@+id/icon_person" />
 
     <androidx.cardview.widget.CardView
@@ -69,7 +72,7 @@
         app:cardCornerRadius="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2">
+        app:layout_constraintTop_toBottomOf="@+id/savings_button">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -106,6 +109,7 @@
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="120dp"
                 android:fontFamily="@font/roboto_variable"
+                android:backgroundTint="@color/black"
                 android:text="@string/label_cash_in"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -117,6 +121,7 @@
                 android:layout_width="124dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="28dp"
+                android:backgroundTint="@color/black"
                 android:layout_marginTop="120dp"
                 android:text="@string/label_send"
                 android:textSize="18sp"
@@ -321,6 +326,8 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
+                android:scrollbars="none"
+                android:fadingEdge="none"
                 app:layout_constraintTop_toBottomOf="@+id/title_transaction"
                 app:layout_constraintBottom_toBottomOf="parent">
 
