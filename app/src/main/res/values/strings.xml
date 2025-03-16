@@ -3,5 +3,28 @@
     <string name="title_home">BayaniPay</string>
     <string name="label_balance">Available Balance</string>
     <string name="label_balance_value">PHP 5,000</string>
+    <string name="label_cash_in_icon">Cash in icon</string>
+    <string name="label_cash_in">Cash In</string>
+    <string name="description_person_icon">Profile Icon</string>
+    <string name="label_wallet">Wallet</string>
+    <string name="label_savings">Savings</string>
+    <string name="label_credit">Credit</string>
+    <string name="label_send">Send</string>
+    <string name="label_bank_transfer">Bank\nTransfer</string>
+    <string name="label_card">Cards</string>
+    <string name="label_stocks">Stocks</string>
+    <string name="label_load">Load</string>
+    <string name="example_transaction1">Takoyaki - ₱150.00</string>
+    <string name="example_transaction2">Milk Tea - ₱120.00</string>
+    <string name="example_transaction3">Ramen - ₱250.00</string>
+    <string name="example_transaction4">Sushi Platter - ₱500.00</string>
+    <string name="example_transaction5">Burger and Fries - ₱180.00</string>
+    <string name="example_transaction6">Iced Coffee - ₱90.00</string>
+    <string name="example_transaction7">Donuts - ₱130.00</string>
+    <string name="label_transactions">Transactions</string>
+    <string name="description_bank_icon">Bank Icon</string>
+    <string name="description_card_icon">Card Icon</string>
+    <string name="description_stocks_icon">Stocks Icon</string>
+    <string name="description_load_icon">Load Icon</string>
 
 </resources>
